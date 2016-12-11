@@ -37,7 +37,11 @@ font-size: 36px;}
 .kiji p {margin-top: 0;
 margin-bottom: 20px;}
 
+.kiji img {max-width: 100%;
+height: auto;}
+
 /*サイドメニュー*/
+.sidemenu {margin-bottom: 30px;}
 .sidemenu ul {margin: 0;
 padding: 0;
 list-style: none;}
@@ -57,6 +61,7 @@ color: #666666;
 font-size: 18px;}
 
 /* おすすめ記事メニュー */
+.osusume {margin-bottom: 30px;}
 .osusume ul {margin: 0;
 padding: 0;
 list-style: none;}
@@ -91,7 +96,13 @@ text-decoration: none;}
 .ninki h1 {margin-top: 0;
 margin-bottom: 10px;
 border-bottom: dotted 2px #dddddd;
-color: #666666;}
+color: #666666;
+font-size: 18px;}
+
+/* コピーライト */
+.copyright p {margin: 0;
+color: #666666;
+font-size: 14px;}
 
 @media (min-width:768px) {
 
